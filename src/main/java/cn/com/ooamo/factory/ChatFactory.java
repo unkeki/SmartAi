@@ -1,10 +1,6 @@
 package cn.com.ooamo.factory;
 
 import cn.com.ooamo.ui.ChatUi;
-import com.intellij.openapi.project.Project;
-import com.intellij.openapi.wm.ToolWindow;
-import com.intellij.ui.content.Content;
-import com.intellij.ui.content.ContentFactory;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -15,6 +11,7 @@ import org.jetbrains.annotations.NotNull;
  */
 public class ChatFactory implements ToolWindowFactory {
     private ChatUi chatUi = new ChatUi();
+
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
         // 获取内容工厂的实例

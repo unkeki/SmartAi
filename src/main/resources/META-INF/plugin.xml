@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>top.codeease.SmartCoder</id>
+    <id>cn.com.ooamo</id>
     <name>Plugin display name here</name>
     <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -15,8 +15,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <!-- 窗体 (IDEA 界面右侧) -->
-        <toolWindow id="ChatUI" secondary="false" anchor="right"
-                    factoryClass="top.codeease.smartcoder.factory.ChatFactory"/>
+        <toolWindow id="ChatUI" secondary="false" anchor="right" factoryClass="cn.com.ooamo.factory.ChatFactory"/>
     </extensions>
 
     <actions>
